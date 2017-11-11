@@ -5,5 +5,5 @@
 
 UI样式为我们一前玩的几块钱的小型掌上游戏机。
 	
-[演示地址](http://eveaos.com/demo/index.html)
+[演示地址](http://eveaos.com/demo/Tetris/index.html)
    
