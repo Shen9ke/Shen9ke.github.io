@@ -41,10 +41,107 @@
 }
     </style_f>
   -->
+  <style>
+
+.banner .menu_web li {
+    width: 120px;
+    float: left;
+    height: 72px;
+    text-align: center;
+	list-style-type:none; 
+}
+.banner {
+	right:64px ;
+    height: 64px;
+    color: #fff;
+    text-align: center;
+    background-color: #15905f;
+    background-image: linear-gradient(120deg, #155799, #15905f);
+}
+
+.banner .header-bottm-container .menu_web li a{
+	color: #eee;
+}
+.banner .header-bottm-container .menu_web li a:hover{
+	color:#ffffff;
+	background-color: rgba(0,0,0,0);
+}
+
+.banner .menu_web li a {
+    
+    text-decoration: none;
+    padding: 13px 3px;
+    text-transform: uppercase;
+
+    border-bottom: solid 2px transparent;
+    display: inline;
+    color: #fff;
+
+    text-align: center;
+
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.banner .menu_web li a:hover {
+	
+	border-bottom-color:#fff; 
+    display: inline;
+    text-decoration: none;
+    padding-bottom: 6px;
+	color: #191919;
+}
+
+.menu_web{
+	float:right;
+	height:82px;
+	line-height: 44px;
+	margin-right:40px;
+}
+.menu_web li{
+	float:left;
+	height:72px;
+	text-align: center;
+}
+
+.menu_web li a{
+	display: block;
+	width:120px;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+
+}
+</style>
 
   </head>
   <body>
+	<div class="banner">
+	<div class="header-bottm-container">
+		<!--<a class="logo" href="http://"><img src="http://img/logo.png"></a>
+		<a class="language" href="http://" target="_blank">EN</a>
+		-->
+		<ul class="menu_web">
+			<li><a href="http://www.eveaos.com/">首页</a></li>
+			<li><a href="https://github.com/Shen9ke">项目</a></li>
+			<li><a href="http://eveaos.com/demo/index.html">演示</a></li>
+			<!--
+			<li><a href="http://">下载</a></li>
+			<li class=""><a href="" class="">文档</a></li>
+			<li><a href="">论坛</a></li>
+			-->				
+		</ul>
+	</div>
+	</div>
     <section class="page-header">
+
+	
       <h1 class="project-name">eveaos.com</h1>
       <h2 class="project-tagline">Websit</h2>
       
@@ -59,7 +156,7 @@
 		<!--<a href="https://github.com/Shen9ke/eveaos.com" class="cont_btn">俄罗斯方块</a>
 		-->
 		<div id="content1"></div>
-		<script>$.get("./content/part_1.md", function(text) {
+		<script>$.get("./content/Tetris.md", function(text) {
 		console.log(text);
 		document.getElementById('content1').innerHTML =
 		marked(text);		//转换为html
