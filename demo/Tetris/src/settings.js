@@ -128,7 +128,7 @@ _CCSettings = {
             "fd6ITm+45G96c+KjMjBV31"
         ]
     },
-    orientation: "landscape",
+    orientation: "portrait",
     uuids: [
         "4eS58XlRRJwJhevQxzPV1j"
     ],
