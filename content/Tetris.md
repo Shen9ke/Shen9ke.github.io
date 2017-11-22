@@ -9,7 +9,7 @@
 
 *  还有一些bug代解决
 	
-[演示地址](http://eveaos.com/demo/Tetris/index.html)
+[演示地址](http://eveaos.com/demo/Tetris/index.html) 
 [源代码](https://github.com/Shen9ke/Tetris)
 
 ## English
@@ -21,5 +21,5 @@
 
 * there are some bug solutions
   
-[demo](http://eveaos.com/demo/Tetris/index.html)
+[demo](http://eveaos.com/demo/Tetris/index.html) 
 [source code](https://github.com/Shen9ke/Tetris)
